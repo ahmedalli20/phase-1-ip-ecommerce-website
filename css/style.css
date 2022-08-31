@@ -43,23 +43,62 @@ header {
 .navlinks li a:hover {
     color: #0088a9;
 }
+
 #input {
     padding: 7px;
     font-size: 16px;
-    
+
 }
-#input i{
-    padding: 7px;
-    font-size: 16px;
+
+.material-symbols-outlined {
     color: red;
-    
 }
-.search a{
+
+
+.search a {
     display: flex;
-    text-decoration: none; 
-    
+    text-decoration: none;
+
 
 }
 
+.search button {
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #ED661F;
 
-     
+}
+.item-sections h2{
+    margin-left: 15px;
+    color: blue;
+}
+
+.items1 .imej img{
+    width: 355px;
+    height: 430px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.items1 {
+    display: flex;
+    gap: 130px;
+    margin: 20px 20px 40px 10px;
+}
+
+  .details{
+    line-height: 30px;
+  }
+
+
+#buy-button{
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #ED661F;
+    /* float: right; */
+    top: 160%;
+
+}
