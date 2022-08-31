@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
   <link rel="stylesheet" href="./css/style.css">
   <title>e-commerce</title>
 </head>
@@ -28,9 +28,11 @@
         <li><a href="#">OUR PRODUCTS</a></li>
         <li><a href="#">CONTACT US</a></li>
         <li><a href="#">ABOUT US</a></li>
+        <li><a href=""> <i class='fa fa-shopping-cart'></i></a></li>
       </ul>
+     
     </div>
-
+     
   </header>
 
 
@@ -49,7 +51,20 @@
             <div class="details">
               <h2>SHOES</h2>
           <h3>price  ksh2500</h3>
-          <button id="buy-button">Buy</button>
+            <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">39</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">40</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">41</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">42</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">43</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
             </div>
         
       </div>
@@ -62,7 +77,20 @@
           <div class="details">
             <h2>MEN's T-SHIRT</h2>
         <h3>price  ksh1200</h3>
-        <button id="buy-button">Buy</button>
+          <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
           </div>
       </div>
         
@@ -74,7 +102,20 @@
             <div class="details">
               <h2>JEANS</h2>
           <h3>price  ksh1100</h3>
-          <button id="buy-button">Buy</button>
+            <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
             </div>
         
       </div>
@@ -86,7 +127,128 @@
             <div class="details">
               <h2>MEN's SHIRT</h2>
           <h3>price  ksh900</h3>
-          <button id="buy-button">Buy</button>
+            <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
+            </div>
+        
+      </div>
+      </div>
+    </div>
+
+
+    <div class="item-sections">
+      <h2>LADIES COLLECTIONS</h2>
+      <div class="items1">
+        
+        <div class="imej">
+          <img
+            src="./img/card4.png"
+            alt="">
+            <div class="details">
+              <h2>Dress</h2>
+          <h3>price  ksh2500</h3>
+            <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
+            </div>
+        
+      </div>
+        
+        <div class="imej">
+          <img
+            src="./img/product image 3.png"
+            alt="calvin klein t-shirt">
+      
+          <div class="details">
+            <h2>MEN's T-SHIRT</h2>
+        <h3>price  ksh1200</h3>
+          <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
+          </div>
+      </div>
+        
+        <div class="imej">
+          <img
+          src="./img/women-collection.png"
+            alt="">
+
+            <div class="details">
+              <h2>JEANS</h2>
+          <h3>price  ksh1100</h3>
+          <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>
+            </div>
+        
+      </div>
+
+        <div class="imej">
+          <img
+            src="./img/women's watch.jpg"
+            alt="">
+            <div class="details">
+              <h2> women's watch </h2>
+          <h3>price  ksh900</h3>
+            <p class="size-selection">select size</p>
+        <input type="radio" name="size" value="s" checked hidden id="s-size">
+        <label for="s-size" class="size-radio-btn check">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size">
+        <label for="m-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="l" hidden id="l-size">
+        <label for="l-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size">
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+
+        <button class="btn cart-btn">add to cart</button>
+        <button class="btn">add to wishlist</button>  
             </div>
         
       </div>
