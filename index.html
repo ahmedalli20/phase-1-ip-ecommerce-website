@@ -19,10 +19,11 @@
   <header>
     <h2 class="logo">maccladies</h2>
     <div class="search">
-      <a href=""><input type="text" placeholder="search products" id="inputs">
-        <button>search</button>
-      </a>
+      <input type="text" placeholder="search products" id="inputs">
+        <button id="search">search</button>
     </div>
+
+
     <div class="navlinks">
       <ul>
         <li><a href="#">HOME</a></li>
@@ -322,20 +323,19 @@
   </section>
 
   <div class="container">
-       <form>
+       <form method="post" id="subscribe" name="form">
       <h1>SUBSCRIPTION</h1>
-      <div class="field">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your fullname" />
-        <small></small>
-      </div>
+     
       <div class="field">
         <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="Enter your email address" />
+        <input type="text" id="email" name="email" placeholder="Enter your email address"  required />
         <small></small>
       </div>
+      <div class="mesage" id="massage" style="display: none;">
+        THANK YOU FOR SUBSCRIBING!
+      </div>
       <div class="field">
-        <button type="submit" class="subscribe">Subscribe</button>
+        <button type="submit" class="subscribe"  >Subscribe</button>
       </div>
     </form>
   </div>
